@@ -1,12 +1,16 @@
 # klonocorp(.github.io)
 
-README.md file & text-only version
+webpage repository README.md file & 
+text-only version with all the information in the main page
 
+
+# updates
+
+05/08: index, README, links. . .
 
 # social media
 
-twitter:	@klonocorp
-		@klonocore
+twitter:	@klonocorp - @klonocore
 
 instagram:	@klonocorp [private]
 
@@ -21,6 +25,6 @@ deviantart:	klonocorp.deviantart.com
 wysp:		wysp.ws/klonocorp
 
 
-##MAY 2020
+
 
 
