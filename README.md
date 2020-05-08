@@ -1,19 +1,23 @@
-# klonocorp.github.io
+# klonocorp(.github.io)
 
-# README.md file & text-only version
+README.md file & text-only version
 
 
-social media
+# social media
 
 twitter:	@klonocorp
 		@klonocore
 
 instagram:	@klonocorp [private]
 
-art sites
+
+# art sites
+
 
 pixiv:		pixiv.me/klonocorp
+
 deviantart:	klonocorp.deviantart.com
+
 wysp:		wysp.ws/klonocorp
 
 
