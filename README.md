@@ -4,25 +4,31 @@ webpage repository README.md file &
 text-only version with all the information in the main page
 
 
-# updates
+## updates
 
+05/09: new layout and some info.
 05/08: index, README, links. . .
 
-# social media
+## social media
 
-twitter:	@klonocorp - @klonocore
+### twitter:	
+@klonocorp - @klonocore
 
-instagram:	@klonocorp [private]
+### instagram:	
+@klonocorp [private]
 
 
-# art sites
+## art sites
 
 
-pixiv:		pixiv.me/klonocorp
+### pixiv:
+		pixiv.me/klonocorp
 
-deviantart:	klonocorp.deviantart.com
+### deviantart:	
+		klonocorp.deviantart.com
 
-wysp:		wysp.ws/klonocorp
+### wysp:
+		wysp.ws/klonocorp
 
 
 
