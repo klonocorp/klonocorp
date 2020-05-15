@@ -17,7 +17,7 @@ text-align: left;
 margin-left: 10px;
 letter-spacing: -1px;
 text-transform: uppercase;
-background: url(img/diary_h1.gif) no-repeat;
+background: url(../img/diary_h1.gif) no-repeat;
 }
 h1:first-letter {
 color: #f9c658;
