@@ -1,7 +1,7 @@
 # klonocorp(.github.io)
 
-webpage repository README.md file & 
-text-only version with all the information in the main page
+webpage repository *README.md* 
+
 
 
 ## updates
@@ -12,23 +12,15 @@ text-only version with all the information in the main page
 ## social media
 
 ### twitter:	
-@klonocorp - @klonocore
+[@klonocorp] (https://twitter.com/klonocorp)  
+[@klonocore] (https://twitter.com/klonocore)
 
-### instagram:	
-@klonocorp [private]
-
-
-## art sites
-
-
-### pixiv:
-		pixiv.me/klonocorp
-
-### deviantart:	
-		klonocorp.deviantart.com
-
-### wysp:
-		wysp.ws/klonocorp
+## art & social media sites
+[pixiv] (http://pixiv.me/klonocorp)
+[dotpict](https://dotpict.net/users/1404970/works))
+[deviantart](http://klonocorp.deviantart.com)
+[wysp](http://wysp.ws/klonocorp)
+[@klonocorp] (https://instagram.com/klonocorp)
 
 
 
