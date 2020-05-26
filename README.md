@@ -21,7 +21,7 @@ webpage repository *README.md*
 [deviantArt](https://klonocorp.deviantart.com) |
 [wysp](https://wysp.ws/klonocorp) |
 [instagram](https://instagram.com/klonocorp) |
-[ibisPaint](https://ibispaint.com/artist1/1004935055641280512)
+[ibisPaint](https://ibispaint.com/artist1/1004935055641280512/)
 
 
 
