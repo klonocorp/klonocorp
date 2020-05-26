@@ -1,0 +1,104 @@
+    :root {
+      --color0: #201838;
+      --color1: #d12060;
+      --color2: #555;
+      --color3: #060200;
+      --y0:  #F1E8D8; 
+      --y1:  #E1A810;
+      --y2:  #754706;
+
+      --p0:  #F0D8E8;
+      --p1:  #d12060;
+      --p2:  #5B0027;
+
+      --g0:  #E1F8D8;     
+      --g1:  #40d020;
+      --g2:  #217000;
+
+      --b0:  #D1E8F8;
+      --b1:  #1098d0;
+      --b2:  #004868;
+
+      --t1:  #10D098;
+      --t2:  #086050;
+
+     /* #501000
+      #A04810
+      #843302*/
+
+      --bg1: #201838;
+      --bg2: #060200;
+    }
+
+/* <--4--><--3--><--306--><--3--><--4-->*/
+    body {
+    padding-top: 0px;
+    margin:4px;
+    text-align: center;
+    background-color: #222;
+    background-image:  url(https://piskel-imgstore-b.appspot.com/img/27ce3e0f-4a1c-11ea-a356-efa48c16db2d.gif);
+    font-family: '04b_21';
+    font-size:8px;
+    }
+    #main { /*iframe style*/
+      border:1px solid var(--bg2);
+    }
+    p{
+      text-transform: none;
+      font-size:8px;
+      color: var(--b0);
+      text-align: justify;
+      font-family: '04b_03';
+      line-height: 8px;
+      padding:8px;
+
+    }
+    .news{
+      border: 1px solid limegreen;
+      padding:5px;
+      margin:2px;
+      color: limegreen;
+      font-family:'04b_24';
+    }
+
+    ul {
+      font-family: inherit;
+      text-align: left;
+      font-size: 12px;}
+    li {  
+      font-family: '04b_25';
+      color:var(--y0);}
+    h1{
+      font-family:'04b_25';
+      font-size: 24px;
+      font-weight: normal;
+      color:var(--t1);
+      /*background: var(--g0);*/
+      text-shadow: 2px 2px 0px var(--t2); 
+      border-radius: 5px;
+      text-align:center;
+      line-height: 18px;
+    }
+    h2{color:var(--t1);
+      font-size:16px;
+      text-transform: lowercase;
+      text-decoration: underline solid var(--p1);
+      }
+
+    h3{font-size:8px;
+       color: var(--p0);
+       text-transform: uppercase;
+      margin-top: -15px} 
+     a{
+      text-transform: uppercase;
+      text-decoration: underline dotted var(--p1);
+      font-family: '04b_21';
+      font-size:8px;
+      color:var(--b1);
+     }
+     img a{border-bottom:none;} 
+      
+    .s {
+      text-decoration: line-through;}  
+  footer p {text-align: center;}
+
