@@ -9,7 +9,7 @@ webpage repository *README.md*
 05/09: new layout and some info.
 05/08: index, README, links. . .
 
-![support me on ko-fi!](https://cdn.ko-fi.com/cdn/kofi1.png)
+[support me on ko-fi!](https://ko-fi.com/klonocorp):coffee:
 
 ### twitter:	
 [@klonocorp](https://twitter.com/klonocorp) - Main Account
