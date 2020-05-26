@@ -12,15 +12,15 @@ webpage repository *README.md*
 ## social media
 
 ### twitter:	
-[@klonocorp] (https://twitter.com/klonocorp)  
-[@klonocore] (https://twitter.com/klonocore)
+[@klonocorp](https://twitter.com/klonocorp)  
+[@klonocore](https://twitter.com/klonocore)
 
 ## art & social media sites
-[pixiv] (http://pixiv.me/klonocorp)
-[dotpict](https://dotpict.net/users/1404970/works))
-[deviantart](http://klonocorp.deviantart.com)
-[wysp](http://wysp.ws/klonocorp)
-[@klonocorp] (https://instagram.com/klonocorp)
+[pixiv](http://pixiv.me/klonocorp) |
+[dotpict](https://dotpict.net/users/1404970/works) |
+[deviantart](http://klonocorp.deviantart.com) |
+[wysp](http://wysp.ws/klonocorp) |
+[instagram](https://instagram.com/klonocorp) 
 
 
 
