@@ -60,7 +60,13 @@
       color: limegreen;
       font-family:'04b_24';
     }
-
+    .item{
+        border:1px solid var(--y0);
+        display: inline-block;
+        margin:1px;
+        text-decoration:none;}
+     .item:hover{
+         background: rgba(255,80,80,0.7)}
     ul {
       font-family: inherit;
       text-align: left;
