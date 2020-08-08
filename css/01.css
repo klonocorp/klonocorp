@@ -36,7 +36,7 @@
     margin:4px;
     text-align: center;
     /*background-color: var(--bg1);*/
-    background: var(--bg1) url('../image/pattern/dot_9x9_01_light.png');
+    background: var(--bg1) url('../img/pattern/dot_9x9_01_light.png');
     /*background-size: cover;*/
     font-family: '04b_21';
     font-size:8px;
