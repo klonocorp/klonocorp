@@ -133,7 +133,6 @@
 #cajita2 p {
   margin:1px;
   padding:10px;
-  border:1px solid var(--color1);}
-    
-      text-decoration: line-through;}  
+  border:1px solid var(--color1);
+  text-decoration: line-through;}  
   footer p {text-align: center;}
