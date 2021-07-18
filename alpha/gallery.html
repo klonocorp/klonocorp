@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>[frame content]</title>
+	<link href="./css/frame.css" rel="stylesheet">
+	<link href="./css/fonts.css" rel="stylesheet">
+</head>
+<body>
+    <div class="folder" id="folder">
+        
+    
+    </div>
+      
+    
+    <script>
+		var folder = [["smileys",31,"gif"], ["face",5,"gif"],["chara",3,"png"]]; //carpetas - titulos
+            for (a = 0; a < folder.length; a++) {
+                getTitle(a);
+                console.log(getTitle(a));
+                content = "<div class='submenu' id='"+titulo+"'>";
+                content += "<h2>"+titulo+"</h2><h3>"+titulo+"</h3>";
+                //document.getElementById("folder").innerHTML += content;
+                console.log(content);
+                showImages(a); 
+                console.log(showImages(a));
+                document.getElementById("folder").innerHTML += content +img+ "<br><p>filetype: "+folder[a][2]+"</p></div>";
+                
+            }
+
+        function getTitle(x){
+                titulo = folder[x][0];
+                return titulo;  
+            }
+
+        function showImages(x) {
+                cant = folder[x][1]; 
+                console.log(folder[x][2]);
+                img = "";
+                for (y = 1; y <= cant; y ++){
+                    img += "<img src='./img/" + folder[x][0] + "/" + y +"."+ folder[x][2] +"'> ";
+                }
+                return img;
+            }
+	    </script>
+    </body>
+</html>

@@ -12,6 +12,11 @@
 
 body 				{ background: var(--bg2);padding:2px;}
 
+.category {
+  border: 1px red dotted;
+  padding:50px;
+}
+
 ::-webkit-scrollbar 	 	{ width: 5px;}
 ::-webkit-scrollbar-track	{ background: #222;}
 ::-webkit-scrollbar-thumb 	{ background: transparent;  border:1px solid var(--g1);}
@@ -26,7 +31,7 @@ p,.submenu a{ color: var(--g0);text-align:justify; font-family: '04b_24';font-si
     .news img 	{ float:left;padding: 2px;border-color: var(--g0);margin: 0px 5px 5px 0px;}
     .alert,.alert-menu	{ border-color: red; background:rgba(255,9,9,0.15)}    
     .alert p {color:var(--alert);}
-    .submenu,.submenu a:hover{border-color: purple}
+    .submenu,.submenu a:hover{border-color: purple; margin-bottom:5px;}
     .submenu a {padding:4px;}	
     .submenu a:hover {background:rgba(180,0,200,0.15)}
     .item{
@@ -55,7 +60,7 @@ p,.submenu a{ color: var(--g0);text-align:justify; font-family: '04b_24';font-si
       line-height: 18px;
     }
     h2{color:var(--t1);
-      font-size:8px;
+      font-size:16px;
       font-weight:normal;
       font-family:'04b_21';
       text-transform: lowercase;
@@ -80,3 +85,7 @@ p,.submenu a{ color: var(--g0);text-align:justify; font-family: '04b_24';font-si
       
     .s {
       text-decoration: line-through;} 
+.folder {
+  border: 1px solid cyan;
+  padding: 10px;
+}
