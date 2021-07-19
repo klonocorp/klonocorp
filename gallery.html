@@ -13,7 +13,11 @@
       
     
     <script>
-		var folder = [["smileys",31,"gif"], ["face",5,"gif"],["chara",3,"png"]]; //carpetas - titulos
+		var folder = [["smileys",31,"gif"], 
+                      ["face",4,"gif"],
+                      ["chara",1,"png"],
+                      ["keroro",48,"gif"]
+                    ]; //carpetas - titulos
             for (a = 0; a < folder.length; a++) {
                 getTitle(a);
                 console.log(getTitle(a));
@@ -37,7 +41,7 @@
                 console.log(folder[x][2]);
                 img = "";
                 for (y = 1; y <= cant; y ++){
-                    img += "<img src='./img/" + folder[x][0] + "/" + y +"."+ folder[x][2] +"'> ";
+                    img += "<img src='./img/gallery/" + folder[x][0] + "/" + y +"."+ folder[x][2] +"'> ";
                 }
                 return img;
             }
