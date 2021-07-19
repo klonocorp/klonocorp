@@ -4,14 +4,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>the klonocorp portal</title>
-    <link href="./css/01.css" rel="stylesheet">
+    <link id="stylesheet" href="./css/02.css" rel="stylesheet">
     <link href="./css/fonts.css" rel="stylesheet">
+    <style>
+    #klonoconfig {
+     background: rgba(100,100,100,0.8);
+     padding:10px 5px;
+     border-radius:10px;
+     position:fixed;
+     height:65px;
+     width:100px;
+     top:-65px;
+     transition: 0.2s ease-in;
+     cursor:help;
+     color: white;
+     text-shadow: 1px 1px 0px black;
+    }
+    #klonoconfig:hover {
+      top: 3px;
+      background:rgba(150,150,150,0.95);
+      
+    }
+
+    </style>
   </head>
   <body>
     <h1>&#8226; klonocorp &#8226;</h1>
+    <div id="klonoconfig">
+      <button onclick="chaaaange()" id="style1">a</button>
+      <button onclick="chaaaange()" id="style2">b</button> 
+      <button onclick="chaaaange()" id="style3" disabled>c</button><br>
+      <br>YOU CAN CHANGE THE STYLESHEET HERE<br><br>
+      h KLONOCONFIG c</div>
     <div class="cajita">    
 	    <div class="screen"><iframe id="mini" src="./update.html" width="175" height="115" name="mini"></iframe>
 	    </div>
+
       <div class="menu">
           <a href="main.html" target="main">y RESET</a>    
 	  <a class="alert-menu" ref="amenu.html" target="mini">t INFO.</a>
@@ -32,6 +60,27 @@
       src="https://www.statcounter.com/counter/counter.js"
       async></script>   
     <footer><p>2015-2020</p></footer>
+
+    <script>
+      function changesheet() {
+        alert("woah!");
+        console.log = document.getElementById("sheet_a")
+      }
+      sheet="./css/01.css";
+
+      
+      var style1 = document.getElementById("style1");
+      var style2 = document.getElementById("style2");
+      console.log(style1);
+      style1.onclick = function () { chaaaange("./css/01.css") };
+      style2.onclick = function () { chaaaange("./css/02.css") };
+
+      function chaaaange(sheet) {
+         document.getElementById("stylesheet").setAttribute("href", sheet);
+      console.log(sheet);
+    }  
+
+    </script>
   </body>
 </html>
 

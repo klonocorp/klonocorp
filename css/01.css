@@ -30,7 +30,7 @@
       --bg2: #060200;
     }
 
-/* <--4--><--3--><--306--><--3--><--4-->*/
+
     body {
     padding-top: 0px;
     margin:4px;
@@ -40,7 +40,7 @@
     font-size:8px;
     }
 
-    /* container whole "site" */
+
     .cajita{
       width:260px; background: rgba(49,255,0,0.2); border: 1px solid var(--g1);
       text-align:left; padding:10px; margin: 4px auto;
@@ -50,7 +50,7 @@
     .cajita h1 {font-family:inherit;font-size:8px; color:var(--g1);text-transform:uppercase;}
     #main, #mini {border:1px solid var(--g1);padding:2px}
 
-    /*Mini screen style*/
+  
     .screen	{ float:left; 	width:180px; display: block; }
     .menu	{ float:right; 	width:75px;  display: block; border:none;}
     
