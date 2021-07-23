@@ -93,46 +93,7 @@
       max-width:64px;
       height:auto;
      }
+     .menu a::before{content: "w";}
      img a{border-bottom:none;} 
      .alert-menu {border:1px solid red;cursor:not-allowed;background:rgba(255,20,20,0.2);}
-    #cajita2{
-      width: 200px;
-      font-family: '04b_21';
-      background: var(--color3);
-      color:var(--color1);
-      border:1px solid var(--color1);
-      text-align:left;
-      font-size:8px;
-      padding:2px;
-      position: absolute;
-      z-index:9;
-      box-shadow: 5px 5px 0px rgba(0,0,0,0.5);
-      }
-      
-      
-    #cajita2header {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background: none;
-  color: var(--color2);
-}
-#cajita2 h1 {
-  color:inherit;
-  border-style: solid;
-  border-width: 1px;
-  background: var(--color1);
-  color:var(--color0);
-  width: 193px;
-  font-family: '04b19';
-  font-size:14px;
-  padding-left: 5px;
-  margin: 0px;
 
-}
-#cajita2 p {
-  margin:1px;
-  padding:10px;
-  border:1px solid var(--color1);
-  text-decoration: line-through;}  
-  footer p {text-align: center;}

@@ -17,7 +17,7 @@ body 				{ background: var(--bg2);padding:2px;}
 ::-webkit-scrollbar-thumb 	{ background: transparent;  border:1px solid var(--g1);}
 ::-webkit-scrollbar-thumb:hover { background: var(--g1);}
 
-p,.submenu a{ color: var(--g0);text-align:justify; font-family: '04b_24';font-size:8px;line-height: 10px;}
+p,.submenu a{ color: var(--g0);text-align:justify; font-family: '04b_24';font-size:16px;line-height: 14px;}
     /*top right bottom left*/
     .submenu,.submenu a, .news, .news img, .alert, .item 	{ border:1px solid; padding: 5px } /* 1px border for all boxes */
     .news			{ border-color: var(--g1);margin:0px 0px 8px 0px;min-height:54px;}	
@@ -27,7 +27,7 @@ p,.submenu a{ color: var(--g0);text-align:justify; font-family: '04b_24';font-si
     .alert,.alert-menu	{ border-color: red; background:rgba(255,9,9,0.15)}    
     .alert p {color:var(--alert);}
     .submenu,.submenu a:hover{border-color: purple}
-    .submenu a {padding:4px;}	
+    .submenu a {padding:4px; line-height:14px;}	
     .submenu a:hover {background:rgba(180,0,200,0.15)}
     .item{
 	color: var(--p1);

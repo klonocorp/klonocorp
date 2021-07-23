@@ -36,24 +36,38 @@
   padding-top: 0px;
   margin:4px;
   text-align: center;
-  background: var(--bg2) url('../img/pattern/02.gif');
+  background: var(--bg2) url('../img/pattern/05.gif');
   font-family: '04b_21';
   font-size:8px;
   }
 
+  #caja {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+  }
 
   .cajita{
-    width:260px; background: var(--main); border: 1px solid var(--main_light);
-    text-align:left; padding:10px; margin: 4px auto;
+    width:180px; background: url('../img/pattern/08s.gif'); 
+    text-align:left; 
+    margin: 20px;
     box-shadow: 5px 5px 0px rgba(0,0,0,0.5);
-    min-height: 130px;font-family:'04b_21';
+    font-family:'04b_21';
+    border: 12px solid transparent;
+    padding:8px;
+    border-image: url('../img/border02.png') 12 round;
+    display: flex;
+    height:180px;
+    flex-direction: column-reverse;
   }
+  .cajita:hover {background: url('../img/pattern/08.gif')}
   .cajita h1 {font-family:inherit;font-size:8px; color:var(--g1);text-transform:uppercase;}
-  #main, #mini {border:1px solid var(--g1);padding:2px}
+  #main, #mini {border:2px solid black;}
 
-
-  .screen	{ float:left; 	width:180px; display: block; }
-  .menu	{ float:right; 	width:75px;  display: block; border:none;}
+  .two{width:auto; height:250px;}
+  .screen	{ width:180px; }
+  .menu	{ display:flex; flex-wrap: wrap; justify-content: center;}
   
   h1{
     font-family:'04b_25';
@@ -84,16 +98,18 @@
    .menu a{
    /* text-transform: uppercase;*/
     text-decoration: none;
-    border: 1px solid var(--g1);
-    font-family: '04b_21';
-    font-size:8px;
-    padding: 4px;
-    color: var(--g1);
-    margin: 2px;
-    display: block;
+    border: 6px solid transparent;
+    border-image: url('../img/border04.png') 6 round;
+    font-family: '04b_24';
+    font-size:16px;
+    padding: 0px;
+    background: #cbdbfc;
+    color: black;
+    margin: 1px;
     max-width:64px;
     height:auto;
    }
+   .menu a::before {content: url('../img/dot.gif')" ";}
    img a{border-bottom:none;} 
    .alert-menu {border:1px solid red;cursor:not-allowed;background:rgba(255,20,20,0.2);}
   #cajita2{

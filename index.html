@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>the klonocorp portal</title>
+    <title>klonocorp</title>
     <link id="stylesheet" href="./css/02.css" rel="stylesheet">
     <link href="./css/fonts.css" rel="stylesheet">
+    <script src="./changesheet.js" async></script>
     <style>
     #klonoconfig {
      background: rgba(100,100,100,0.8);
@@ -29,28 +30,32 @@
     </style>
   </head>
   <body>
-    <h1>&#8226; klonocorp &#8226;</h1>
+    
     <div id="klonoconfig">
       <button onclick="chaaaange()" id="style1">a</button>
       <button onclick="chaaaange()" id="style2">b</button> 
       <button onclick="chaaaange()" id="style3" disabled>c</button><br>
       <br>YOU CAN CHANGE THE STYLESHEET HERE<br><br>
       h KLONOCONFIG c</div>
+    
+    <div id="caja">
+      <br>
     <div class="cajita">    
 	    <div class="screen"><iframe id="mini" src="./update.html" width="175" height="115" name="mini"></iframe>
 	    </div>
 
       <div class="menu">
-          <a href="main.html" target="main">y RESET</a>    
-	  <a class="alert-menu" ref="amenu.html" target="mini">t INFO.</a>
-	  <a href="fmenu.html" target="mini">w FLIP.</a>
-	  <a href="pmenu.html" target="mini">w PIXEL.</a>
-	  <a href="links.html" target="main">w LINK.</a>
-	  <a href="https://www.tinkercad.com/embed/3prGwjK21XI" target="main">w THINGY</a>
-        </div></div>
-        <div class="cajita">    
+          <a href="main.html" target="main">RESET</a>    
+	  <a class="alert-menu" ref="amenu.html" target="mini">INFO</a>
+	  <a href="pmenu.html" target="mini">ART</a>
+	  <a href="links.html" target="main">LINK</a>
+	  <a href="https://www.tinkercad.com/embed/3prGwjK21XI" target="main">THINGY</a>
+    <a href="http://www.placekitten.com/300/300/" target="main">?</a>
+  </div></div>
+        <div class="cajita two">    
       <iframe id="main" class="screen1" src="./main.html" width="256" height="256" name="main"></iframe>
     
+      </div>
       </div>
       <script type="text/javascript">
       var sc_project=12396937; 
@@ -61,27 +66,6 @@
       src="https://www.statcounter.com/counter/counter.js"
       async></script>   
     <footer><p>2015-2020</p></footer>
-
-    <script>
-      function changesheet() {
-        alert("woah!");
-        console.log = document.getElementById("sheet_a")
-      }
-      sheet="./css/01.css";
-
-      
-      var style1 = document.getElementById("style1");
-      var style2 = document.getElementById("style2");
-      console.log(style1);
-      style1.onclick = function () { chaaaange("./css/01.css") };
-      style2.onclick = function () { chaaaange("./css/02.css") };
-
-      function chaaaange(sheet) {
-         document.getElementById("stylesheet").setAttribute("href", sheet);
-      console.log(sheet);
-    }  
-
-    </script>
   </body>
 </html>
 
