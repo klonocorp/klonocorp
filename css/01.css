@@ -58,7 +58,9 @@
       font-family:'04b_25';
       color: var(--t1);
       text-align:center;
-      line-height: 18px;
+      line-height: 30px;
+      margin-top:0px;
+      font-size:24px;
     }
     h2{color:var(--t1);
 	    font-family:'04b_24';

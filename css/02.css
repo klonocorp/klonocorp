@@ -67,6 +67,7 @@
 
   .two{width:auto; height:250px;}
   .screen	{ width:180px; }
+  .screen1 {width:256px; height:256px;}
   .menu	{ display:flex; flex-wrap: wrap; justify-content: center;}
   
   h1{
