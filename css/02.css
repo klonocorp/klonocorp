@@ -44,37 +44,39 @@
   #caja {
     display: flex;
     flex: auto;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
+    border: 3px double magenta;
+    height:100vh;
+    max-width:600px;
+    flex-wrap:wrap;
   }
 
   .cajita{
     width:180px; background: url('../img/pattern/08s.gif'); 
     text-align:left; 
-    margin: 20px;
+    margin: 5px;
     box-shadow: 5px 5px 0px rgba(0,0,0,0.5);
     font-family:'04b_21';
-    border: 12px solid transparent;
     padding:8px;
+    border: 12px solid transparent;
     border-image: url('../img/border02.png') 12 round;
     display: flex;
-    height:180px;
-    flex-direction: column-reverse;
+    height:190px;
+    flex-direction: column;
+    flex-wrap:wrap;
   }
   .cajita:hover {background: url('../img/pattern/08.gif')}
   .cajita h1 {font-family:inherit;font-size:8px; color:var(--g1);text-transform:uppercase;}
   #main, #mini {border:2px solid black;}
 
   .two{width:auto; height:250px;}
-  .screen	{ width:180px; }
-  .screen1 {width:256px; height:256px;}
-  .menu	{ display:flex; flex-wrap: wrap; justify-content: center;}
-  
-  h1{
-    font-family:'04b_25';
-    color: var(--t1);
+  .screen	{ width:180px;}
+  .screen1 {width:356px; height:256px;}
+  .menu	{ display:flex; justify-content:left;border:1px solid red;width:180px;
     text-align:center;
     line-height: 18px;
+    flex-wrap:wrap;
   }
   h2{color:var(--t1);
       font-family:'04b_24';
@@ -107,10 +109,10 @@
     background: #cbdbfc;
     color: black;
     margin: 1px;
-    max-width:64px;
+    min-width:45px;
     height:auto;
    }
-   .menu a::before {content: url('../img/dot.gif')" ";}
+   /*.menu a::before {content: url('../img/dot.gif');}*/
    img a{border-bottom:none;} 
    .alert-menu {border:1px solid red;cursor:not-allowed;background:rgba(255,20,20,0.2);}
   #cajita2{
